@@ -10,11 +10,14 @@ h2{
     color:black;
     font-style:italic;
     text-align:center;
+    font-size:20px;
 }
 
 h3{
+	color:black;
 	font-style:italic;
-    text-align:center;
+    	text-align:center;
+	font-size:16pt;
 }
 
 .tsec{
@@ -29,6 +32,7 @@ h3{
   background-color: cyan;
   text-align: center;
   padding: 20px;
+  fornt-size: 24px;
 }
 
 /* The navbar container */
