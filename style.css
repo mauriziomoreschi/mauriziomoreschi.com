@@ -1,0 +1,97 @@
+body{
+    background-color: LightYellow;
+}
+
+a{
+    color:blue;
+}
+
+h2{
+    color:black;
+    font-style:italic;
+    text-align:center;
+}
+
+h3{
+	font-style:italic;
+    text-align:center;
+}
+
+.tsec{
+	color:black;
+	font-style:italic;
+	text-align:left;
+
+}
+	
+.header {
+  color: red;
+  background-color: cyan;
+  text-align: center;
+  padding: 20px;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  text-align:center;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Add a card effect for articles */
+.card {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: lightcyan;
+  color: black;
+  margin-top: 20px;
+}
